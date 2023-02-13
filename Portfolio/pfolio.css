@@ -1,0 +1,107 @@
+body{
+   background-image: url( image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border:1px solid rgb(85, 81, 81); 
+    background-color:sandybrown;  
+}
+.icons{
+width: 100%;
+text-align: center;
+padding:10px; 
+border:1px solid black; 
+margin:20px; 
+background-color:skyblue;
+display: flex;
+justify-content: space-evenly;
+}
+
+.text{
+  width:50%;
+  padding:10px; 
+  border:1px; 
+  margin:20px; 
+  text-align: center;
+  background-color: cornsilk;
+  border:10px; 
+}
+
+.picture{
+    width:500px;
+    text-align:center; 
+}
+
+.skill{
+    margin: 10px;
+    padding-top: 5%;
+    padding-left: 45%; 
+    align-items: center; 
+    justify-content: center;
+    color:teal
+}
+.heading{
+    width: 100%;
+    text-align:center;
+}
+#abt{
+    color:black;
+    font-family: cursive;
+    font-size: medium;
+    padding-top:10%;
+}
+.security{
+    width:100%;
+    text-align:center;
+    padding:20px;
+    margin:20px;
+    border:1px;
+    background-color:#5f9ea0;
+}
+.init{
+    text-align:start;
+}
+.main{
+    display:flex;
+    align-items: center; 
+    justify-content:space-evenly;
+    width:100%;
+    margin:10px;
+    padding-top:10%;
+    padding-left:5px;
+    border:1px; 
+}
+.logo{
+    display:flex;
+    justify-content: space-evenly;
+    padding:30px;
+    margin:10px;
+}
+
+.exp{
+    text-align: center;
+    padding-top: 20%;
+}
+
+#edu{
+    justify-content: space-evenly;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+#base{
+    width:100%;
+    padding-left:2%;
+    padding-right:2%;
+    text-align: center;
+}
+
+#image{
+    display: flex;
+    justify-content: space-evenly;
+}
